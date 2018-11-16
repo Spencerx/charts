@@ -50,6 +50,7 @@ The following table lists the configurable parameters of the MongoDB chart and t
 | `image.tag`                             | MongoDB Image tag                                                                            | `{VERSION}`                                              |
 | `image.pullPolicy`                      | Image pull policy                                                                            | `Always`                                                 |
 | `image.pullSecrets`                     | Specify image pull secrets                                                                   | `nil`                                                    |
+| `image.setPersmissions`                 | Set chown for mongodb user                                                                   | `false`                                                  |
 | `usePassword`                           | Enable password authentication                                                               | `true`                                                   |
 | `existingSecret`                        | Existing secret with MongoDB credentials                                                     | `nil`                                                    |
 | `mongodbRootPassword`                   | MongoDB admin password                                                                       | `random alhpanumeric string (10)`                        |
