@@ -22,7 +22,7 @@ image:
   #   - myRegistrKeySecretName
 
   ## Optionally if mongo user needs full access
-  setPersmissions: false
+  setPermissions: false
 
 ## Enable authentication
 ## ref: https://docs.mongodb.com/manual/tutorial/enable-authentication/

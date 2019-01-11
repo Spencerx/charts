@@ -25,7 +25,7 @@ spec:
         - name: {{ . }}
       {{- end}}
       {{- end }}
-      {{- if .Values.image.setPersmissions }}
+      {{- if .Values.image.setPermissions }}
       initContainers:
       - name: set-permissions
         image: busybox
